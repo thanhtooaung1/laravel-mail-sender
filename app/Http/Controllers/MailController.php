@@ -10,7 +10,8 @@ class MailController extends Controller
 {
     public function sendMail()
     {
-        Mail::to('fake@gmail.com')->send(new SignUp());
+        Mail::to('thanhtooaung2126@gmail.com')->send(new SignUp());
         return view('welcome');
     }
 }
+// yezawhtet.web@gmail.com

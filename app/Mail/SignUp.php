@@ -28,6 +28,6 @@ class SignUp extends Mailable
      */
     public function build()
     {
-        return $this->view("signUpView");
+        return $this->from('thanhtooaung.dev@gmail.com')->markdown("signUpView");
     }
 }
